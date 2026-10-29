@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+*.egg-info/
+
+# Competition data and model weights must never be committed
+*.dcm
+*.pt
+*.pth
+*.npz
+*.csv
+kaggle_output/
